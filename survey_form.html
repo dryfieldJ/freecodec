@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>freeCodeCamp Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">
+      Thank you for taking the time to help us improve the platform
+    </p>
+
+    <form action="" method="post" id="survey-form">
+      <label for="name" id="name-label"
+        >Name<input
+          type="text"
+          name=""
+          id="name"
+          required
+          placeholder="Escribe tu nombre"
+      /></label>
+
+      <label for="email" id="email-label"
+        >Email<input
+          type="email"
+          name=""
+          id="email"
+          required
+          placeholder="Escribe tu Email"
+      /></label>
+
+      <label for="number" id="number-label"
+        >Age (optional)
+        <input
+          type="number"
+          name=""
+          id="number"
+          min="10"
+          max="99"
+          placeholder="Introduce tu Edad"
+          required
+      /></label>
+
+      <label for="">Which option best describes your current role? </label>
+      <select name="" id="dropdown" required>
+        <option value="" disabled selected>Selecciona una opcion</option>
+        <option value="">opcion1</option>
+        <option value="">opcion1.1</option>
+      </select>
+      <label for="0"
+        >radio 0
+        <input type="radio" name="radio_btn" id="" value="valor 0" />
+      </label>
+      <label for="1"
+        >radio 1
+        <input type="radio" name="radio_btn" id="" value="valor 1" />
+      </label>
+      <label for="2"
+        >radio 2
+        <input type="radio" name="radio_btn" id="" value="valor 2" />
+      </label>
+      <label for=""
+        >checkbox 0
+        <input type="checkbox" name="" id="" value="0" />
+      </label>
+      <label for=""
+        >checkbox 1
+        <input type="checkbox" name="" id="" value="0" />
+      </label>
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <input type="submit" value="" id="submit" />
+    </form>
+  </body>
+</html>
